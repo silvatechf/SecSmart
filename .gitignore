@@ -1,0 +1,6 @@
+﻿__pycache__/
+*.pyc
+.env
+target_code/
+.pytest_cache/
+.vscode/

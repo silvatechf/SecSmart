@@ -1,0 +1,7 @@
+﻿- id: seclabs-remediator
+  name: SecLabs Auto-Remediation
+  description: Detects and automatically replaces hardcoded secrets with Vault refs.
+  entry: python -m src.main
+  language: python
+  types: [python, javascript, typescript]
+  pass_filenames: true

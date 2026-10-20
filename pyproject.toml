@@ -1,0 +1,18 @@
+﻿[tool.poetry]
+name = "seclabs"
+version = "1.0.0"
+description = "Enterprise Secret & Remediation Sandbox"
+authors = ["Principal Cyber Security Architect"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pydantic = "^2.0.0"
+rich = "^13.0.0"
+fastapi = "^0.100.0"
+structlog = "^23.1.0"
+anyio = "^3.7.1"
+aiofiles = "^23.1.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+pytest-asyncio = "^0.21.1"
